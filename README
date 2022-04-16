@@ -1,0 +1,41 @@
+# Project 4: Reader of Books
+
+* Author: Sajia Zafreen
+* Class: CS121 Section 6
+* Semester: Fall 2018 
+
+## Overview
+
+The program contains GUI where a reader can upload books in the library from files and 
+read the selected book from there. 
+
+## Compiling and Running
+```
+$ javac ReaderOfBooks.java
+```
+```
+$ java ReaderOfBooks
+
+```
+##Extra Credit
+The instruction says to implement a new interface to read the big files . However I have used another code
+to read my files in the first place which doesn't use a scanner and that's why I didn't implemented the new method
+
+
+## Sources used
+
+Codes from the text book and stackoverflow.com helped to finish the project
+To read the text files I took help from this web site : 
+http://www.java67.com/2016/08/how-to-read-text-file-as-string-in-java.html
+to edit JTextPane I have used:
+https://stackoverflow.com/questions/3213045/centering-text-in-a-jtextarea-or-jtextpane-horizontal-text-alignment
+but I didn't copy or pasted any code.
+
+## Struggles and challenges
+
+This Project was hard a took a while. I struggled a lot when I needed to implement action listener for the book buttons. 
+I realized that if I load books after I implement the action listener in the reader of books panel then the book buttons 
+are not connected to the action listener. So, I implemented the action listener to the load button and the book buttons
+in the final panel: ReaderOfBooksPanel.
+I also had to give some extra time to figure out the page numbers of the books.
+
